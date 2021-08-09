@@ -1,1 +1,6 @@
-export default function flexible(window, document): void {}
+interface IOptions {
+    maxFontSize: number;
+    minFontSize: number;
+}
+
+export default function flexible(window, document, options?: IOptions): void {}
