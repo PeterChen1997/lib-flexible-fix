@@ -1,0 +1,21 @@
+{
+    "name": "@tutor/lib-flexible-fix",
+    "version": "1.0.2",
+    "description": "修复后的 lib-flexible",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PeterChen1997/lib-flexible-fix.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PeterChen1997/lib-flexible-fix/issues"
+    },
+    "homepage": "https://github.com/PeterChen1997/lib-flexible-fix#readme"
+}
