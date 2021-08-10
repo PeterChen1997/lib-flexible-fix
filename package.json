@@ -1,6 +1,6 @@
 {
     "name": "@tutor/lib-flexible-fix",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "修复后的 lib-flexible",
     "main": "index.js",
     "scripts": {

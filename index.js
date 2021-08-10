@@ -11,7 +11,9 @@ export default function flexible(window, document, options) {
             document.addEventListener("DOMContentLoaded", setBodyFontSize);
         }
     }
-    setBodyFontSize();
+    if (options && !!options.enableDPR) {
+        setBodyFontSize();
+    }
 
     function setRootFontSize(rem) {
         if (options && options.maxFontSize && rem > options.maxFontSize) {
