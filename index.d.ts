@@ -4,4 +4,4 @@ interface IOptions {
     enableDPI?: boolean;
 }
 
-export default function flexible(window, document, options?: IOptions): void {}
+export default function flexible(window: Window, document: Document, options?: IOptions): void;
